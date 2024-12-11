@@ -1,0 +1,33 @@
+{
+  "name": "flightradar24-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for FlightRadar24 API",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flightradar24",
+    "api",
+    "mcp",
+    "flight-tracking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.4",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  }
+}

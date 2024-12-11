@@ -1,0 +1,11 @@
+.DS_Store
+dist/
+node_modules/
+build/
+*.log
+.env
+.env.local
+.env.*.local
+
+# Keep example file
+!.env.example
