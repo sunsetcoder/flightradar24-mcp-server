@@ -9,6 +9,8 @@ A Claude Desktop MCP server that helps you track flights in real-time using Flig
 - 🌉 View the status of flights at an airport
 - 🚨 Monitor emergency flights
 
+<img width="1466" alt="Anthropic Claude MCP Hackathon - FlightRadar24 MCP server" src="https://github.com/user-attachments/assets/719444ae-2c8b-4441-84f8-5150337d871f" />
+
 ## Setup Guide 🚀
 
 ### 1. Prerequisites
