@@ -2,6 +2,8 @@
 
 A Claude Desktop MCP server that helps you track flights in real-time using Flightradar24 data. Perfect for aviation enthusiasts, travel planners, or anyone curious about flights overhead!
 
+<a href="https://glama.ai/mcp/servers/5w29onbypp"><img width="380" height="200" src="https://glama.ai/mcp/servers/5w29onbypp/badge" alt="flightradar24-mcp-server MCP server" /></a>
+
 ## What Can This Do? ✨
 
 - 🔍 Track any flight in real-time
