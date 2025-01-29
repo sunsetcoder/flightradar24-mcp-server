@@ -111,7 +111,6 @@ Claude: Let me check that for you...
 - Make sure your Flightradar24 API key is valid
 - Check if the API URL is correct
 - Look for any error messages in server logs
-```
 
 ### FlightRadar API Access
 - Note: Using Flightradar24's API requires a [subscription](https://fr24api.flightradar24.com/subscriptions-and-credits)
@@ -120,12 +119,12 @@ Claude: Let me check that for you...
 
 1. Make sure Claude Desktop is properly installed
 2. Verify your Flightradar24 API key is active
-3. Check the path in your configuration is absolute and correct
-4. Look for error messages in Claude Desktop's logs
+3. Check the path in your configuration file is correct
+4. Look for error messages in MCP server logs
 
 ## License 📄
 
-MIT - Feel free to use this however you want!
+MIT
 
 ---
 
