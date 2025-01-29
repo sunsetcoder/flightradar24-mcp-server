@@ -15,7 +15,7 @@ A Claude Desktop MCP server that helps you track flights in real-time using Flig
 
 ### 1. Prerequisites
 - [Claude Desktop](https://claude.ai/desktop) installed on your computer
-- A Flightradar24 API key (get one from [Flightradar24's website](https://www.flightradar24.com/premium))
+- A Flightradar24 API key (get one from [Flightradar24's website](https://www.flightradar24.com/premium))*
 
 ### 2. Installation
 
@@ -112,6 +112,9 @@ Claude: Let me check that for you...
 - Check if the API URL is correct
 - Look for any error messages in server logs
 ```
+
+### FlightRadar API Access
+- Note: Using Flightradar24's API requires a [subscription](https://fr24api.flightradar24.com/subscriptions-and-credits)
 
 ## Need More Help? 🆘
 
