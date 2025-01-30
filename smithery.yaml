@@ -1,0 +1,21 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - fr24ApiKey
+    properties:
+      fr24ApiKey:
+        type: string
+        description: Your Flightradar24 API key.
+      fr24ApiUrl:
+        type: string
+        default: https://fr24api.flightradar24.com
+        description: The base URL for the Flightradar24 API.
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    config => ({ command: 'node', args: ['dist/index.js'], env: { FR24_API_KEY: config.fr24ApiKey, FR24_API_URL: config.fr24ApiUrl } })
