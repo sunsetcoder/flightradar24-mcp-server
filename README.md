@@ -1,4 +1,5 @@
 # Flightradar24 MCP Server 🛩️
+[![smithery badge](https://smithery.ai/badge/flightradar24-mcp-server)](https://smithery.ai/server/flightradar24-mcp-server)
 
 A Claude Desktop MCP server that helps you track flights in real-time using Flightradar24 data. Perfect for aviation enthusiasts, travel planners, or anyone curious about flights overhead!
 
@@ -18,6 +19,14 @@ A Claude Desktop MCP server that helps you track flights in real-time using Flig
 - A Flightradar24 API key (get one from [Flightradar24's website](https://www.flightradar24.com/premium))*
 
 ### 2. Installation
+
+### Installing via Smithery
+
+To install Flightradar24 Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/flightradar24-mcp-server):
+
+```bash
+npx -y @smithery/cli install flightradar24-mcp-server --client claude
+```
 
 1. Clone this repository somewhere on your computer:
    ```bash
